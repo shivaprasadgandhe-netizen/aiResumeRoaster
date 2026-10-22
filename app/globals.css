@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+
+  body {
+    @apply bg-white dark:bg-charcoal-900 text-neutral-900 dark:text-neutral-100 antialiased min-h-screen flex flex-col selection:bg-flame-500 selection:text-white transition-colors duration-200;
+  }
+}
+
+/* Custom Print Styles for Downloadable/Printable Report */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  header,
+  footer,
+  .print\\:hidden {
+    display: none !important;
+  }
+
+  .print\\:block {
+    display: block !important;
+  }
+
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}
