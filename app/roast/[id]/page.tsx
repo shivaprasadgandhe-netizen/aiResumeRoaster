@@ -65,7 +65,7 @@ export default async function RoastDetailsPage({ params }: RoastPageProps) {
             {roast.fileName}
           </h1>
           <div className="flex items-center gap-4 text-xs text-neutral-500">
-            <span className="flex items-center gap-1">
+            <span className="flex items-center gap-1" suppressHydrationWarning>
               <Calendar className="w-3.5 h-3.5" />
               {formattedDate}
             </span>

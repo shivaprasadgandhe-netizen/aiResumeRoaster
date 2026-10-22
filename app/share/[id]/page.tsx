@@ -8,7 +8,7 @@ import { SectionScores } from "@/components/roast/SectionScores";
 import { RoastCritique } from "@/components/roast/RoastCritique";
 import { FeedbackCards } from "@/components/roast/FeedbackCards";
 import { ConfettiTrigger } from "@/components/roast/ConfettiTrigger";
-import { Flame, Sparkles, Share2, ArrowRight } from "lucide-react";
+import { Flame, Sparkles, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { ShareButton } from "./ShareButton";
 

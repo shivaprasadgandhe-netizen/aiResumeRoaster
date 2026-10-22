@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { toast } from "sonner";
-import { Share2, Download, Printer, ArrowLeft, Check, Flame } from "lucide-react";
+import { Share2, Download, Printer, ArrowLeft, Check } from "lucide-react";
 import { RoastResult } from "@/types/roast";
 
 interface ReportActionsProps {

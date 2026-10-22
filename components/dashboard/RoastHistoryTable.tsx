@@ -77,7 +77,7 @@ export function RoastHistoryTable({ roasts }: RoastHistoryTableProps) {
                   &ldquo;{roast.resultJson?.verdict}&rdquo;
                 </p>
                 <div className="flex items-center gap-3 text-[11px] text-neutral-400">
-                  <span className="flex items-center gap-1">
+                  <span className="flex items-center gap-1" suppressHydrationWarning>
                     <Calendar className="w-3 h-3" />
                     {dateStr}
                   </span>

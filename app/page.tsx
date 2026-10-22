@@ -1,7 +1,6 @@
 import React from "react";
 import { UploadDropzone } from "@/components/roast/UploadDropzone";
-import { Flame, ShieldCheck, Zap, Bot, ArrowRight, CheckCircle, Sparkles } from "lucide-react";
-import Link from "next/link";
+import { Flame, ShieldCheck, Zap, CheckCircle, Sparkles } from "lucide-react";
 
 export default function HomePage() {
   return (
