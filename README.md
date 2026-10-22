@@ -233,3 +233,4 @@ The parsed JSON is strictly verified against `RoastResultSchema`. If the model f
 
 ## 📄 License & Credits
 Built for the **Finlatics Full-Stack Development Program**. Powered by **Google Gemini** and **Next.js 14**.
+"# aiResumeRoaster" 
